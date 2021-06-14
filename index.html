@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Payment Gateway Integration</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> 
+        <link href="/style.css" rel="stylesheet">
+        <style>
+            html,body {
+                height: 100%; 
+            }
+            .column{
+                background-color:  #5d6d7e;
+                font-family: Raleway, sans-serif;
+                position: relative;
+                padding-top: 20vh;
+                margin-top: 5vw;
+                opacity: 0.8;
+                font-size: 2.5vw;
+            }
+            .column1{
+                color: white;
+                padding-left: 5vw;
+                border-bottom-left-radius: 3%; 
+                border-top-left-radius: 3%;
+            }
+            .column2{
+                margin-left: -4vw;
+                padding-left: 6vw;
+                background-color:  white;  
+                border-bottom-right-radius: 3%; 
+                border-top-right-radius: 3%;    
+            }
+            .donate{
+                padding-left: 30%;
+                padding-top: 3%;
+                font-size: 5vw;
+            }
+        </style>
+    </head>
+
+    <body style="background-color: #17202a;">
+        <div class="container" style="height: 90%;">
+            <div class="row" style="height: 100%; margin-right: -4vw;">
+                <div class="col-sm-6 column column1">
+                    <p style="color:  #a9cce3; font-size: 3vw; margin-left: -2vw;">&lt;/info&gt;</p>
+                    A simple website to showcase payment gateway integration.
+                    <form class="donate">
+                        <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HN10eri702d56O" async> </script> 
+                    </form>
+                </div>
+                <div class="col-sm-6 column2 column">
+                    Hi, I'm <br>
+                    <p style="font-size: 3.2vw;">
+                        <b>B</b>hupendra <b>C</b>hauhan
+                    </p>
+                    Web Developer<br>
+                    GCP Aspirant<br>
+                    & Cyber Security Enthusiast
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
